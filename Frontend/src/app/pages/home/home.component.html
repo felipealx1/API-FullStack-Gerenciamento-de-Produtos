@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <main>
+        <h2 style="text-align: center;">Produtos Disponíveis</h2>
+        <table class="table table-bordered table-striped" style="border-radius: 30%;">
+          <thead style="border-radius: 30%;">
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Nome do Produto</th>
+              <th scope="col">Preço</th>
+              <th scope="col">Imagem</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let produto of produtos">
+              <th scope="row">{{ produto.id }}</th>
+              <td>{{ produto.nome }}</td>
+              <td>{{ produto.preco | currency: 'BRL' }}</td>
+              <td>
+                <img [src]="produto.img" alt="{{ produto.nome }}" width="100" height="100" *ngIf="produto.img">
+                <!-- Exibe uma mensagem ou imagem padrão se a URL estiver vazia -->
+                <span *ngIf="!produto.img">Sem imagem</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </main>      
+
+<footer>
+    <p>&copy; 2024 AC Closet. Todos os direitos reservados.</p>
+</footer>
+ 
+</body>
+</html>
