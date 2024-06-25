@@ -1,5 +1,4 @@
 # API-FullStack Gerenciamento de Produtos
-<h1>API-FullStack Gerenciamento de Produtos</h1>
 <h2>Desenvolvimento de uma API para Cadastro e Gerenciamento de Produtos</h2>
 <p>Este projeto é um sistema full stack para uma loja, permitindo aos administradores gerenciar o cadastro e a exclusão de produtos. O sistema é dividido em duas partes principais: o frontend para visualização dos produtos e o backend para gerenciamento dos produtos pelos administradores.</p>
     
