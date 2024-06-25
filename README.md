@@ -61,4 +61,4 @@
     
   <p>Este projeto foi desenvolvido como parte do meu portfólio pessoal e é uma excelente oportunidade para demonstrar minhas habilidades em desenvolvimento full stack. Estou ansioso para aplicar esses conhecimentos em um ambiente profissional.</p>
     
-  <p>#DesenvolvimentoWeb #Java #SpringBoot #Angular #FullStack #GerenciamentoDeProdutos #Tecnologia #ProjetosPessoais</p>
+  <p>#DesenvolvimentoWeb #Java #SpringBoot #Angular #FullStack #GerenciamentoDeProdutos #Tecnologia #ProjetosPessoais  #JvaSpringBoot</p>
